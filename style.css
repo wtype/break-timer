@@ -1,0 +1,41 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  font-size: 16px;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+body {
+  background: linear-gradient(to right, rgba(15, 15, 15, 1) 0%, rgba(25, 25, 25, 1) 100%);
+  color: slategrey;
+  padding: 3rem;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+body > * {
+  margin: 1rem 0;
+}
+
+label {
+  font-size: 2rem;
+}
+
+input {
+  font-size: 2.5rem;
+  background: inherit;
+  border: none;
+  box-shadow: 0px 0px 0px 2px slategrey;
+  color: white;
+  padding: 0.25rem 0.5rem;
+  max-width: 10rem;
+}
