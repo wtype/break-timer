@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: 1500ms;
+  font-weight: 200;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  color: white;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+main {
+  background: transparent;
+  min-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#time {
+  font-size: 3rem;
+}
