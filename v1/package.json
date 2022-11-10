@@ -1,12 +1,1 @@
-{
-  "name": "break-timer",
-  "version": "1.0.0",
-  "main": "main.js",
-  "license": "MIT",
-  "dependencies": {
-    "electron": "^9.4.0"
-  },
-  "scripts": {
-    "start": "electron ."
-  }
-}
+{"name":"break-timer","version":"1.0.0","main":"main.js","license":"MIT","dependencies":{"electron":"^18.3.7"},"scripts":{"start":"electron ."}}
